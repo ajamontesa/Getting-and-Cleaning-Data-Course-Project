@@ -98,3 +98,7 @@ tidy_data <- interest_data %>%
 ## Item 3 is accomplished in line 50
 ## Item 4 is accomplished throughout the process
 ## Item 5 is accomplished in line 91
+
+write.csv(all_data, "./Output/all-data.csv")
+write.csv(interest_data, "./Output/interest-data.csv")
+write.csv(tidy_data, "./Output/tidy-data.csv")
