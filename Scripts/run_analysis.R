@@ -102,4 +102,4 @@ tidy_data <- interest_data %>%
 write.csv(all_data, "./Output/all-data.csv")
 write.csv(interest_data, "./Output/interest-data.csv")
 write.csv(tidy_data, "./Output/tidy-data.csv")
-write.table(tidy_data, "./Output/tidy-data.txt")
+write.table(tidy_data, "./Output/tidy-data.txt", row.name = FALSE)
